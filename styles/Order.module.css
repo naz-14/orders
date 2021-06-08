@@ -1,0 +1,92 @@
+.container {
+  max-width: 88%;
+  margin: 0 auto;
+}
+.tableWrapper{
+  overflow-x: auto;
+  margin-bottom: 3rem;
+}
+.tableh {
+  font-size: 1.5rem;
+  text-align: left;
+  background-color: #393e46;
+}
+.totalWrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.total {
+  font-size: 1.8rem;
+  color: #ffd369;
+  margin-bottom: 0;
+}
+.totalPrice {
+  font-size: 1.5rem;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.formInputWrapper {
+  flex: 0 1 calc(50% - 1rem);
+  margin-bottom: 2rem;
+}
+.formLabel {
+  display: block;
+  margin-bottom: .5rem;
+}
+.formInput {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ffd369;
+  padding: .5rem;
+  color: white;
+}
+.button {
+  display: inline-block;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ffd369;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+.button:hover {
+  color: #222831;
+  background-color: #ffd369 ;
+}
+.error {
+  border: 1px solid red;
+}
+.errorText {
+  position: absolute;
+  color: red;
+}
+.payButton {
+  margin-top: 3rem;
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ffd369;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+.payButton:hover {
+  color: #222831;
+  background-color: #ffd369 ;
+}
+.goBack {
+  display: inline-block;
+  color: #ffd369;
+  text-decoration: underline;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}

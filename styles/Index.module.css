@@ -1,0 +1,15 @@
+.container {
+  max-width: 88%;
+  margin: 0 auto;
+}
+.tableh {
+  font-size: 1.5rem;
+  text-align: left;
+  background-color: #393e46;
+}
+.tabled {
+  text-decoration: underline;
+}
+.tabled:hover {
+  color: #ffd369;
+}
